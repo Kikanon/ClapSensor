@@ -44,7 +44,7 @@ void loop(){
       digitalWrite(13, HIGH);
       
       }
-    if(relay == false){
+    else if(relay == false){ //bolje tako
       digitalWrite(13, LOW);
       
       }
