@@ -2,7 +2,7 @@
 #define MicPin A1
  bool relay = false; 
 
-// measure basic properties of the input signal
+// measure basic properties of the input signal test
 // determine if analog or digital, determine range and average.
 void setup(){
   Serial.begin(9600);
